@@ -1,0 +1,25 @@
+.hero {
+	position: relative;
+	margin-top: 3rem;
+	padding-top: 11.4rem;
+
+	&__center {
+		max-width: 32rem;
+		text-align: center;
+		margin: 0 auto;
+
+		h4 {
+			margin: 1rem 0;
+			color: white;
+		}
+	}
+
+	img {
+		position: absolute;
+		top: 0;
+		width: 100vw;
+		left: -7.5rem;
+		height: 90vh;
+		z-index: -1;
+	}
+}

@@ -1,0 +1,64 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+
+	ul li {
+		list-style-type: none;
+		cursor: pointer;
+		font-size: 1.125rem;
+	}
+
+	&__logo {
+		cursor: pointer;
+	}
+
+	&__menu,
+	&__socials {
+		display: flex;
+		gap: 2rem;
+		align-items: center;
+
+		&__dropdown {
+			position: relative;
+
+			&__hidden {
+				position: absolute;
+				background-color: white;
+				left: -1rem;
+				z-index: 1;
+				width: 110%;
+				padding: 1rem;
+				display: flex;
+				flex-direction: column;
+				gap: 0.2rem;
+
+				li:hover {
+					font-weight: 600;
+				}
+			}
+			.arrow {
+				display: inline-block;
+				width: 0;
+				height: 0;
+				border-left: 6px solid transparent;
+				border-right: 6px solid transparent;
+				border-top: 10px solid black;
+				position: relative;
+			}
+
+			.arrow::before {
+				content: "";
+				position: absolute;
+				top: -10px; /* Adjust to position correctly inside */
+				left: -6px; /* Align with left border */
+				width: 0;
+				height: 0;
+				border-left: 6px solid transparent;
+				border-right: 6px solid transparent;
+				border-top: 6px solid white; /* Half of the outer border thickness */
+			}
+		}
+	}
+}

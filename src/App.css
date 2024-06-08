@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+  --primary-font: font-family: "Plus Jakarta Sans", sans-serif;
+  --primary-color: #00000
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: var(--primary-font);
+  color: var(--primary-color);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 2rem 7.5rem;
+  overflow-x: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+p {
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 5rem;
+  line-height: 110%;
+  font-weight: 900;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  font-size: 3rem;
+  line-height: 120%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h3 {
+  font-size: 2rem;
+  line-height: 120%;
+}
+
+h4 {
+  font-size: 1.2rem;
+  line-height: 120%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  padding: 0.625rem 1.5rem;
+  font-size: 1.125rem;
+  border-radius: 3.5rem;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button-dark {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.button-dark:hover {
+  background-color: #313131;
+  color: white;
+}
+
+.button-dark:active {
+  background-color: #A1A1A1;
+  color: var(--primary-color);
+}
+
+.button-light {
+  background-color: white;
+  color: var(--primary-color);
+}
+
+.button-light:hover {
+  background-color: var(--primary-color);
+  color: white;
 }
