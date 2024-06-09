@@ -1,0 +1,299 @@
+{
+    "products": {
+      "hoodies": [
+        {
+          "img": "featuredOne",
+          "amountOfStars": 4,
+          "header": "Classic Hoodie",
+          "explanation": "A comfortable and stylish classic hoodie for everyday wear.",
+          "cost": "$50",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredTwo",
+          "amountOfStars": 5,
+          "header": "Premium Hoodie",
+          "explanation": "A premium hoodie made from high-quality materials for extra warmth.",
+          "cost": "$70",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredThree",
+          "amountOfStars": 4,
+          "header": "Sports Hoodie",
+          "explanation": "Perfect for workouts, this hoodie offers both comfort and flexibility.",
+          "cost": "$60",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredFour",
+          "amountOfStars": 3,
+          "header": "Lightweight Hoodie",
+          "explanation": "A lightweight hoodie ideal for mild weather conditions.",
+          "cost": "$45",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredTwo",
+          "amountOfStars": 4,
+          "header": "Zip-Up Hoodie",
+          "explanation": "Convenient zip-up hoodie with a sleek design for casual outings.",
+          "cost": "$55",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        }
+      ],
+      "shirts": [
+        {
+          "img": "featuredOne",
+          "amountOfStars": 4,
+          "header": "Classic T-Shirt",
+          "explanation": "A soft and breathable t-shirt for everyday comfort.",
+          "cost": "$20",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredTwo",
+          "amountOfStars": 5,
+          "header": "Graphic T-Shirt",
+          "explanation": "A trendy t-shirt with unique graphic designs.",
+          "cost": "$25",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredThree",
+          "amountOfStars": 4,
+          "header": "Performance T-Shirt",
+          "explanation": "Moisture-wicking t-shirt perfect for sports and activities.",
+          "cost": "$30",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredFour",
+          "amountOfStars": 3,
+          "header": "V-Neck T-Shirt",
+          "explanation": "Stylish V-neck t-shirt for a more refined casual look.",
+          "cost": "$22",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredTwo",
+          "amountOfStars": 4,
+          "header": "Long Sleeve T-Shirt",
+          "explanation": "A comfortable long sleeve t-shirt for cooler days.",
+          "cost": "$28",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        }
+      ],
+      "shoes": [
+        {
+          "img": "featuredOne",
+          "amountOfStars": 4,
+          "header": "Running Shoes",
+          "explanation": "Durable and comfortable running shoes for all terrains.",
+          "cost": "$80",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredTwo",
+          "amountOfStars": 5,
+          "header": "Casual Sneakers",
+          "explanation": "Versatile sneakers perfect for everyday wear.",
+          "cost": "$70",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredThree",
+          "amountOfStars": 4,
+          "header": "High-Top Sneakers",
+          "explanation": "Stylish high-top sneakers with extra ankle support.",
+          "cost": "$85",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredFour",
+          "amountOfStars": 3,
+          "header": "Slip-On Shoes",
+          "explanation": "Convenient slip-on shoes for quick and easy wear.",
+          "cost": "$60",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredTwo",
+          "amountOfStars": 4,
+          "header": "Trail Shoes",
+          "explanation": "Rugged trail shoes designed for outdoor adventures.",
+          "cost": "$90",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        }
+      ],
+      "pants": [
+        {
+          "img": "featuredOne",
+          "amountOfStars": 4,
+          "header": "Jogger Pants",
+          "explanation": "Comfortable jogger pants ideal for both workouts and lounging.",
+          "cost": "$40",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredTwo",
+          "amountOfStars": 5,
+          "header": "Denim Jeans",
+          "explanation": "Classic denim jeans with a modern fit.",
+          "cost": "$50",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredThree",
+          "amountOfStars": 4,
+          "header": "Chino Pants",
+          "explanation": "Versatile chino pants perfect for casual and semi-formal wear.",
+          "cost": "$45",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredFour",
+          "amountOfStars": 3,
+          "header": "Cargo Pants",
+          "explanation": "Functional cargo pants with multiple pockets.",
+          "cost": "$55",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredTwo",
+          "amountOfStars": 4,
+          "header": "Shorts",
+          "explanation": "Light and comfortable shorts for warm weather.",
+          "cost": "$35",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        }
+      ],
+      "jackets": [
+        {
+          "img": "featuredOne",
+          "amountOfStars": 5,
+          "header": "Leather Jacket",
+          "explanation": "A stylish leather jacket perfect for a rugged look.",
+          "cost": "$150",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredTwo",
+          "amountOfStars": 4,
+          "header": "Bomber Jacket",
+          "explanation": "A comfortable and trendy bomber jacket.",
+          "cost": "$120",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredThree",
+          "amountOfStars": 4,
+          "header": "Denim Jacket",
+          "explanation": "Classic denim jacket for a casual look.",
+          "cost": "$90",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredFour",
+          "amountOfStars": 3,
+          "header": "Puffer Jacket",
+          "explanation": "Warm and cozy puffer jacket for cold weather.",
+          "cost": "$130",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredTwo",
+          "amountOfStars": 4,
+          "header": "Windbreaker",
+          "explanation": "Lightweight windbreaker ideal for windy days.",
+          "cost": "$80",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        }
+      ],
+      "hats": [
+        {
+          "img": "featuredOne",
+          "amountOfStars": 5,
+          "header": "Baseball Cap",
+          "explanation": "A classic baseball cap for casual wear.",
+          "cost": "$25",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredTwo",
+          "amountOfStars": 4,
+          "header": "Beanie",
+          "explanation": "Warm beanie for cold weather.",
+          "cost": "$20",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredThree",
+          "amountOfStars": 4,
+          "header": "Fedora",
+          "explanation": "Stylish fedora hat for a refined look.",
+          "cost": "$50",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredFour",
+          "amountOfStars": 3,
+          "header": "Bucket Hat",
+          "explanation": "Trendy bucket hat for a casual outing.",
+          "cost": "$30",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredTwo",
+          "amountOfStars": 4,
+          "header": "Sun Hat",
+          "explanation": "Wide-brimmed sun hat for protection against the sun.",
+          "cost": "$40",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        }
+      ],
+      "accessories": [
+        {
+          "img": "featuredOne",
+          "amountOfStars": 5,
+          "header": "Leather Belt",
+          "explanation": "A durable leather belt for everyday use.",
+          "cost": "$35",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredTwo",
+          "amountOfStars": 4,
+          "header": "Scarf",
+          "explanation": "A warm scarf for cold weather.",
+          "cost": "$25",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredThree",
+          "amountOfStars": 4,
+          "header": "Sunglasses",
+          "explanation": "Stylish sunglasses for sunny days.",
+          "cost": "$50",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredFour",
+          "amountOfStars": 3,
+          "header": "Wristwatch",
+          "explanation": "A classic wristwatch with a leather strap.",
+          "cost": "$75",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        },
+        {
+          "img": "featuredTwo",
+          "amountOfStars": 4,
+          "header": "Backpack",
+          "explanation": "A spacious backpack for everyday use.",
+          "cost": "$60",
+          "colorOptions": ["#A2A5B4", "#ADBEAB", "#B1B3B0", "#B9A5AB", "#E1DDDC"]
+        }
+      ]
+    }
+  }
+  
