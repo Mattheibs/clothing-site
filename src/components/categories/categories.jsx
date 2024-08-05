@@ -16,18 +16,22 @@ const categoryImages = [
 
 function Categories() {
 	return (
-		<div className="categories">
-			<h2>Categories</h2>
-			<div className="categories__grid">
-				{categoryImages.map((image, index) => (
-					<div
-						key={index}
-						className="categories__grid__item"
-						style={{ backgroundImage: `url(${image})` }}
-					>
-						<button className="button-dark">Category</button>
-					</div>
-				))}
+		<div className="container">
+			<div className="categories">
+				<h2>Categories</h2>
+				<div className="categories__grid">
+					{categoryImages.map((image, index) => (
+						<div
+							key={index}
+							className="categories__grid__item"
+							style={{ backgroundImage: `url(${image})` }}
+						>
+							<button className="button-dark">
+								Category
+							</button>
+						</div>
+					))}
+				</div>
 			</div>
 		</div>
 	);
