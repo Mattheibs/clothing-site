@@ -42,76 +42,95 @@ function Featured() {
 	};
 
 	return (
-		<div className="featured">
-			<h2>Featured Products</h2>
-			<div className="featured__categories">
-				{Object.entries(data.products).map(([item], index) => {
-					return (
-						<button
-							key={index}
-							onClick={() => handleCategoryChange(item)}
-							className={`${
-								selectedCategory === item
-									? "active"
-									: "null"
-							} featured__categories__category`}
-						>
-							{item.slice(0, 1).toUpperCase() +
-								item.slice(1)}
-						</button>
-					);
-				})}
-			</div>
+		<div className="container">
+			<div className="featured">
+				<h2>Featured Products</h2>
+				<div className="featured__categories">
+					{Object.entries(data.products).map(([item], index) => {
+						return (
+							<button
+								key={index}
+								onClick={() =>
+									handleCategoryChange(item)
+								}
+								className={`${
+									selectedCategory === item
+										? "active"
+										: "null"
+								} featured__categories__category`}
+							>
+								{item.slice(0, 1).toUpperCase() +
+									item.slice(1)}
+							</button>
+						);
+					})}
+				</div>
 
-			<Swiper
-				ref={swiperRef}
-				spaceBetween={40}
-				slidesPerView={4}
-				loop={true}
-				pagination={{
-					clickable: true,
-				}}
-				modules={[Pagination]}
-			>
-				{/*  */}
-				{data.products[selectedCategory].map((item, index) => {
-					return (
-						<SwiperSlide key={index}>
-							<div className="featured__slider-top">
-								<img
-									className="featured__slider-top__person"
-									src={imageMap[item.img]}
-									alt=""
-								/>
-								<div>{stars(item.amountOfStars)}</div>
-							</div>
+				<Swiper
+					ref={swiperRef}
+					spaceBetween={40}
+					loop={true}
+					pagination={{
+						clickable: true,
+					}}
+					modules={[Pagination]}
+					breakpoints={{
+						640: {
+							slidesPerView: 2,
+							spaceBetween: 20,
+						},
+						768: {
+							slidesPerView: 3,
+							spaceBetween: 40,
+						},
+						1100: {
+							slidesPerView: 4,
+							spaceBetween: 50,
+						},
+					}}
+				>
+					{/*  */}
+					{data.products[selectedCategory].map((item, index) => {
+						return (
+							<SwiperSlide key={index}>
+								<div className="featured__slider-top">
+									<img
+										className="featured__slider-top__person"
+										src={imageMap[item.img]}
+										alt=""
+									/>
+									<div>
+										{stars(item.amountOfStars)}
+									</div>
+								</div>
 
-							<h4>{item.header}</h4>
-							<p className="explanation">
-								{item.explanation}
-							</p>
-							<h4>{item.cost}</h4>
-							<div className="color-options">
-								{item.colorOptions.map(
-									(item, index) => {
-										return (
-											<div
-												key={index}
-												style={{
-													backgroundColor: `${item}`,
-												}}
-												className="color-options__option"
-											></div>
-										);
-									}
-								)}
-							</div>
-						</SwiperSlide>
-					);
-				})}
-			</Swiper>
-			<div className="button-dark-container">
-				<button className="button-dark">Lorem Ipsum</button>
+								<h4>{item.header}</h4>
+								<p className="explanation">
+									{item.explanation}
+								</p>
+								<h4>{item.cost}</h4>
+								<div className="color-options">
+									{item.colorOptions.map(
+										(item, index) => {
+											return (
+												<div
+													key={index}
+													style={{
+														backgroundColor: `${item}`,
+													}}
+													className="color-options__option"
+												></div>
+											);
+										}
+									)}
+								</div>
+							</SwiperSlide>
+						);
+					})}
+				</Swiper>
+				<div className="button-dark-container">
+					<button className="button-dark">Lorem Ipsum</button>
+				</div>
 			</div>
 		</div>
 	);

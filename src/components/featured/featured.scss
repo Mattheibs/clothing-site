@@ -67,3 +67,21 @@
 		}
 	}
 }
+
+@media only screen and (max-width: 1100px) {
+	.featured {
+		&__categories {
+			flex-wrap: wrap;
+		}
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.featured {
+		.swiper {
+			.explanation {
+				min-height: 2rem;
+			}
+		}
+	}
+}
