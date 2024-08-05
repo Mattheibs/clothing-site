@@ -1,5 +1,10 @@
 .featured {
 	position: relative;
+
+	.button-dark-container {
+		max-width: 10rem;
+		margin: 4rem auto 4rem auto;
+	}
 	.active {
 		background-color: #000000;
 		color: white;
@@ -51,6 +56,14 @@
 			font-size: 1rem;
 			background-color: transparent;
 			border: 1px solid #f2f2f2;
+		}
+
+		.active:hover {
+			background-color: black;
+		}
+		&__category:hover {
+			background-color: #313131;
+			color: white;
 		}
 	}
 }
