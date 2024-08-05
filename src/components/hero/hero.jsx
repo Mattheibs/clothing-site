@@ -15,7 +15,7 @@ function Hero() {
 					Ut et massa mi. Aliquam in hendrerit urna. Pellentesque
 					sit amet sapien fringilla, mattis ligula.
 				</h4>
-				<button>Lorem ipsum</button>
+				<button className="button-light">Lorem ipsum</button>
 			</div>
 		</div>
 	);

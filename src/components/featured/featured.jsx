@@ -110,6 +110,9 @@ function Featured() {
 					);
 				})}
 			</Swiper>
+			<div className="button-dark-container">
+				<button className="button-dark">Lorem Ipsum</button>
+			</div>
 		</div>
 	);
 }

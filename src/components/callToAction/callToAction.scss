@@ -1,0 +1,26 @@
+.call-to-action {
+	position: relative;
+	min-height: 48rem;
+	display: flex;
+	align-items: center;
+	img {
+		position: absolute;
+		left: -7.5rem;
+		width: 100vw;
+		z-index: -1;
+	}
+
+	&__text {
+		z-index: 2;
+
+		h2,
+		p {
+			color: white;
+		}
+
+		p {
+			margin: 2rem 0;
+			max-width: 30rem;
+		}
+	}
+}
