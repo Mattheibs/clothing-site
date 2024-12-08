@@ -48,11 +48,12 @@ function Navbar() {
 						alt=""
 						onClick={menuClick}
 						className="navbar__close"
+						loading="lazy"
 					/>
 				) : null}
 
-				<a href="/">
-					<img src={logo} alt="" className="navbar__logo" />
+				<a href="/" aria-label="home">
+					<img src={logo} alt="" className="navbar__logo"/>
 				</a>
 
 				<div
@@ -110,34 +111,34 @@ function Navbar() {
 							) : null}
 						</li>
 						<li>
-							<a href="#"></a>Women
+							<a aria-label="link to women category" href="#"></a>Women
 						</li>
 						<li>
-							<a href="#"></a>Men
+							<a aria-label="link to men category" href="#"></a>Men
 						</li>
 						<li>
-							<a href="#"></a>Sales
+							<a aria-label="link to sales category" href="#"></a>Sales
 						</li>
 					</ul>
 					<ul className="navbar__full__socials">
 						<li className="navbar__full__socials__hidden">
-							<a href="#">
-								<img src={facebook} alt="" />
+							<a aria-label="link to facebook" href="#">
+								<img src={facebook} alt=""/>
 							</a>
 						</li>
 						<li className="navbar__full__socials__hidden">
-							<a href="#">
-								<img src={twitter} alt="" />
+							<a aria-label="link to twitter" href="#">
+								<img src={twitter} alt=""/>
 							</a>
 						</li>
 						<li className="navbar__full__socials__hidden">
-							<a href="#">
-								<img src={linkedin} alt="" />
+							<a aria-label="link to linkedIn" href="#">
+								<img src={linkedin} alt=""/>
 							</a>
 						</li>
 						<li className="navbar__full__socials__hidden">
-							<a href="#">
-								<img src={instagram} alt="" />
+							<a aria-label="link to instagram" href="#">
+								<img src={instagram} alt="" loading="lazy"/>
 							</a>
 						</li>
 						<li>
@@ -155,6 +156,7 @@ function Navbar() {
 					onClick={menuClick}
 					alt=""
 					className="navbar__burger"
+				
 				/>
 			</div>
 		</div>

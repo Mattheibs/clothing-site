@@ -2,7 +2,7 @@ import React from "react";
 import "./footer.scss";
 
 // Images
-import footerBackground from "../../images/footer.png";
+import footerBackground from "../../images/footer.webp";
 import footerLogo from "../../images/footer-logo.svg";
 import logo from "../../images/logo.svg";
 import facebook from "../../images/facebook.svg";
@@ -17,6 +17,7 @@ function Footer() {
 				className="footer__top__background"
 				src={footerBackground}
 				alt=""
+				loading="lazy"
 			/>
 			<div className="container">
 				<div className="footer__top">
@@ -42,29 +43,30 @@ function Footer() {
 						className="footer__card__logo"
 						src={footerLogo}
 						alt=""
+						loading="lazy"
 					/>
 					<div className="footer__card__left">
-						<img src={logo} alt="" />
+						<img src={logo} alt="" loading="lazy"/>
 						<p>
 							Lorem ipsum dolor sit amet consectetur
 							adipiscing elit Ut et massa mi. Aliquam in
 							hendrerit urna.
 						</p>
 						<div className="footer__card__left__socials">
-							<img src={twitter} alt="" />
-							<img src={facebook} alt="" />
-							<img src={linkedin} alt="" />
-							<img src={instagram} alt="" />
+							<img src={twitter} alt="" loading="lazy"/>
+							<img src={facebook} alt="" loading="lazy"/>
+							<img src={linkedin} alt="" loading="lazy"/>
+							<img src={instagram} alt="" loading="lazy"/>
 						</div>
 					</div>
 					<div className="footer__card__table">
 						<table>
-							<tr>
+							<thead><tr>
 								<th>Shop</th>
 								<th>Company</th>
 								<th>Help</th>
-							</tr>
-							<tr>
+							</tr></thead>
+							<tbody><tr>
 								<td>Women</td>
 								<td>dolor sit sam</td>
 								<td>consectetur</td>
@@ -83,7 +85,8 @@ function Footer() {
 								<td>Sales</td>
 								<td>Lorem ipsum</td>
 								<td>it amet c</td>
-							</tr>
+							</tr></tbody>
+							
 						</table>
 					</div>
 					<div className="footer__card__mobile-table">

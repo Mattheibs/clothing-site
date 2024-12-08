@@ -36,7 +36,7 @@ function Featured() {
 	const stars = (amount) => {
 		const allStars = [];
 		for (let i = 0; i < amount; i++) {
-			allStars.push(<img src={star} key={i} alt="" />);
+			allStars.push(<img loading="lazy" src={star} key={i} alt="" />);
 		}
 		return allStars;
 	};
@@ -98,6 +98,7 @@ function Featured() {
 										className="featured__slider-top__person"
 										src={imageMap[item.img]}
 										alt=""
+										loading="lazy"
 									/>
 									<div>
 										{stars(item.amountOfStars)}
