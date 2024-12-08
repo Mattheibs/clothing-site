@@ -1,13 +1,15 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./hero.scss";
 
 //Images
-import hero from "../../images/hero.png";
+import hero from "../../images/hero.webp";
+
 
 function Hero() {
 	return (
 		<div className="hero">
-			<img src={hero} alt="" />
+			<link rel="preload" href={hero} as="image" />
+			<img src={hero} alt="" loading="eager" height="90vh" width="auto"/>
 			<div className="container">
 				<div className="hero__center">
 					<h1>Lorem ipsum dolor sit.</h1>
